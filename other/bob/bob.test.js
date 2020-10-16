@@ -9,10 +9,6 @@ describe('Bob', () => {
     expect(result).toEqual('Whatever.')
   })
 
-  it('stating something', () => {
-    const result = bob.hey(4)
-    expect(result).toEqual('Whatever.')
-  })
   it('shouting', () => {
     const result = bob.hey('WATCH OUT!')
     expect(result).toEqual('Whoa, chill out!')

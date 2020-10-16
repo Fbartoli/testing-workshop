@@ -32,20 +32,6 @@ test('toMatchObject', () => {
   expect(subArray).toMatchObject(actArray)
 })
 
-test('toHaveBeenCalledTimes', () => {
-  const mockFn = jest.fn()
-  expect(mockFn).toHaveBeenCalledTimes(0)
-
-  mockFn()
-  expect(mockFn).toHaveBeenCalledTimes(1)
-})
-
-test('toHaveBeenCalledWith', () => {
-  const mockFn = jest.fn()
-  mockFn('abc', { oneTwoThree: 123 })
-  // NOTE: uses toEqual (not toBe) on each arg
-  expect(mockFn).toHaveBeenCalledWith('abc', { oneTwoThree: 123 })
-})
 
 test('toBeGreaterThan', () => {
   expect(10).toBeGreaterThan(3)
