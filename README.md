@@ -1,55 +1,32 @@
 # Testing Workshop
 
-👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
-workshop repo to teach you about testing JavaScript applications.
-
-> **NOTICE**: If you're coming here from
-> [my Frontend Masters 2017 workshop](https://frontendmasters.com/courses/testing-javascript/),
-> I recommend you watch [the updated 2018 workshop instead](https://frontendmasters.com/courses/testing-react/).
-> If you'd rather follow the 2017 workshop, then please
-> [go to the `fem` branch](https://github.com/kentcdodds/testing-workshop/tree/fem)
-> to make sure you're looking at the accurate information for your workshop.
-
-[![chat-badge][chat-badge]][chat]
-[![Build Status][build-badge]][build]
-[![AppVeyor Build Status][win-build-badge]][win-build]
-[![Code Coverage][coverage-badge]][coverage]
-[![License][license-badge]](#license)
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
-
-[![PRs Welcome][prs-badge]][prs]
-[![Code of Conduct][coc-badge]][coc]
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Topics covered](#topics-covered)
-- [Branches](#branches)
-- [System Requirements](#system-requirements)
-- [Setup](#setup)
-- [Running the app](#running-the-app)
-- [About the app](#about-the-app)
-  - [Continuous Integration](#continuous-integration)
-  - [Hosting](#hosting)
-  - [Register and Login](#register-and-login)
-- [Troubleshooting](#troubleshooting)
-- [Structure](#structure)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+- [Testing Workshop](#testing-workshop)
+  - [Table of Contents](#table-of-contents)
+  - [Topics covered](#topics-covered)
+  - [Branches](#branches)
+  - [System Requirements](#system-requirements)
+  - [Setup](#setup)
+  - [Running the app](#running-the-app)
+  - [About the app](#about-the-app)
+    - [Continuous Integration](#continuous-integration)
+    - [Hosting](#hosting)
+    - [Register and Login](#register-and-login)
+  - [Troubleshooting](#troubleshooting)
+  - [Structure](#structure)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Topics covered
 
-1.  Unit Testing with [Jest](http://facebook.github.io/jest)
-2.  Integration Testing with [Jest](http://facebook.github.io/jest)
-3.  End to End (E2E) Testing with [Cypress](https://www.cypress.io/)
+1. Unit Testing with [Jest](http://facebook.github.io/jest)
+2. Integration Testing with [Jest](http://facebook.github.io/jest)
+3. End to End (E2E) Testing with [Cypress](https://www.cypress.io/)
 
 We'll mention other forms of testing, but these are the types we'll focus on and
 learn in this workshop. Learn more about the course goals and specific topics
@@ -94,12 +71,6 @@ variable and how to fix it here for [windows][win-path] or
 
 After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
-
-```
-git clone https://github.com/kentcdodds/testing-workshop.git
-cd testing-workshop
-npm run setup --silent
-```
 
 This may take a few minutes. **It will ask you for your email.** This is
 optional and just automatically adds your email to the links in the project to
@@ -262,70 +233,3 @@ included both the `server` and `client` projects in a single repository. The
 root of the project has a `package.json` as does `server`, and `client`. While
 you'll be working in the source code and tests in these folders, you should be
 able to leave you command line in the root directory for the whole workshop.
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/osamajandali"><img src="https://avatars3.githubusercontent.com/u/13832392?v=4" width="100px;" alt=""/><br /><sub><b>Osama Jandali</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/commits?author=osamajandali" title="Code">💻</a> <a href="#design-osamajandali" title="Design">🎨</a></td>
-    <td align="center"><a href="http://stefanivic.me/"><img src="https://avatars2.githubusercontent.com/u/3818515?v=4" width="100px;" alt=""/><br /><sub><b>Stefan Ivic</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/issues?q=author%3Astefanivic" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/bodiddlie"><img src="https://avatars2.githubusercontent.com/u/2413413?v=4" width="100px;" alt=""/><br /><sub><b>Nick Klepinger</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/issues?q=author%3Abodiddlie" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://abinavseelan.com"><img src="https://avatars2.githubusercontent.com/u/6417910?v=4" width="100px;" alt=""/><br /><sub><b>Abinav Seelan</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/issues?q=author%3Aabinavseelan" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://philipsotirov.com"><img src="https://avatars0.githubusercontent.com/u/2751691?v=4" width="100px;" alt=""/><br /><sub><b>Philip Sotirov</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/issues?q=author%3Afipo" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/indiesquidge"><img src="https://avatars3.githubusercontent.com/u/3409645?v=4" width="100px;" alt=""/><br /><sub><b>Austin Wood</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/commits?author=indiesquidge" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/wk32"><img src="https://avatars3.githubusercontent.com/u/7888225?v=4" width="100px;" alt=""/><br /><sub><b>WK</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/issues?q=author%3Awk32" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/rjperkins"><img src="https://avatars1.githubusercontent.com/u/57779301?v=4" width="100px;" alt=""/><br /><sub><b>Richard Perkins</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-workshop/commits?author=rjperkins" title="Tests">⚠️</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
-
-## LICENSE
-
-This material is available for private, non-commercial use under the
-[GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html). If you
-would like to use this material to conduct your own workshop, please contact me
-at kent@doddsfamily.us
-
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
-[git]: https://git-scm.com/
-[chat]: https://gitter.im/kentcdodds/testing-workshop
-[chat-badge]: https://img.shields.io/gitter/room/kentcdodds/testing-workshop.js.svg?style=flat-square&logo=gitter-white
-[build-badge]: https://img.shields.io/travis/kentcdodds/testing-workshop.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.org/kentcdodds/testing-workshop
-[license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
-[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[donate]: http://kcd.im/donate
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/kentcdodds/testing-workshop/blob/master/other/CODE_OF_CONDUCT.md
-[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/testing-workshop.svg?style=social
-[github-watch]: https://github.com/kentcdodds/testing-workshop/watchers
-[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/testing-workshop.svg?style=social
-[github-star]: https://github.com/kentcdodds/testing-workshop/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20testing-workshop%20by%20@kentcdodds%20https://github.com/kentcdodds/testing-workshop%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/testing-workshop.svg?style=social
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-contributors
-[win-path]: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
-[mac-path]: http://stackoverflow.com/a/24322978/971592
-[issue]: https://github.com/kentcdodds/testing-workshop/issues/new
-[win-build-badge]: https://img.shields.io/appveyor/ci/kentcdodds/testing-workshop.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/testing-workshop
-[coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/testing-workshop.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/testing-workshop
-[watchman]: https://facebook.github.io/watchman/docs/install.html

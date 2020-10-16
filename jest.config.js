@@ -14,5 +14,4 @@ module.exports = {
       lines: 10,
     },
   },
-  projects: ['./client', './server'],
 }
