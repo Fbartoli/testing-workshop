@@ -1,6 +1,0 @@
-var db = {}
-
-
-
-module.exports = {
-}

@@ -1,4 +1,4 @@
-const {sum, subtract} = require('./math')
+const { sum, subtract } = require('./math')
 
 let result, expected
 
@@ -16,6 +16,6 @@ function expect(actual) {
       if (actual !== expected) {
         throw new Error(`${actual} is not equal to ${expected}`)
       }
-    },
+    }
   }
 }
